@@ -1,0 +1,25 @@
+﻿<Window x:Class="Lesson_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="450">
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="aValue" HorizontalAlignment="Left" Margin="58,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" TextAlignment="Center" FontSize="18" Height="26"/>
+        <TextBox x:Name="bValue" HorizontalAlignment="Left" Margin="172,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" FontSize="18" Height="26" TextAlignment="Center"/>
+        <TextBox x:Name="resValue" HorizontalAlignment="Left" Margin="286,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" FontSize="18" Height="26" TextAlignment="Center"/>
+        <Button x:Name="plusBtn" Content="+" HorizontalAlignment="Left" Margin="58,89,0,0" VerticalAlignment="Top" Height="27" Width="64" Click="plusBtn_Click"/>
+        <Label x:Name="op" Content="?" HorizontalAlignment="Left" Margin="141,41,0,0" VerticalAlignment="Top" Height="26" Width="26"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="253,41,0,0" VerticalAlignment="Top" Height="26" Width="18"/>
+        <Button x:Name="devBtn" Content="/" HorizontalAlignment="Left" Margin="172,141,0,0" VerticalAlignment="Top" Height="27" Width="64" Click="devBtn_Click"/>
+        <Button x:Name="mulBtn" Content="*" HorizontalAlignment="Left" Margin="172,89,0,0" VerticalAlignment="Top" Height="27" Width="64" Click="mulBtn_Click"/>
+        <Button x:Name="minusBtn" Content="-" HorizontalAlignment="Left" Margin="58,141,0,0" VerticalAlignment="Top" Height="27" Width="64" Click="minusBtn_Click"/>
+        <Button x:Name="clearBtn" Content="C" HorizontalAlignment="Left" Margin="286,89,0,0" VerticalAlignment="Top" Height="27" Width="124" Click="clearBtn_Click"/>
+        <Button x:Name="exitBtn" Content="exit" HorizontalAlignment="Left" Margin="286,142,0,0" VerticalAlignment="Top" Height="27" Width="124" Click="exitBtn_Click"/>
+    </Grid>
+</Window>
